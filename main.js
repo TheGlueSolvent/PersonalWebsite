@@ -1,7 +1,6 @@
 const invis = document.getElementById('invis');
 let opacity = 0;
-let grub = 2;
-document.getElementById('button').addEventListener('click', () => {transparency(invis)});
+document.getElementById('projects').addEventListener('click', () => {transparency(invis)});
 function transparency(target) {
   target.style.opacity = opacity;
   const intervalId = setInterval(() => {

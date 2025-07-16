@@ -1,6 +1,8 @@
 body {
     background-color: #588E47;
     font-family:monospace;
+    border: 5px solid #06670e;
+    width: auto;
 }
 button {
     background-color: black;
@@ -8,6 +10,9 @@ button {
     font-family: monospace;
     transition: background-color 0.3s ease; 
     transition: color 0.3s ease, transform .3s ease; 
+    width: 100px;
+    left: 100px;
+    top: 150px;
 }
 button:hover {
   background-color: #FDE666; 
@@ -20,7 +25,7 @@ div {
 }
 @keyframes reveal {
     0% {
-        opacity: 1;
+        opacity: 0;
     }
     100% {
         opacity: 100;
