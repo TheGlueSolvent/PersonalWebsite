@@ -1,33 +1,22 @@
 body {
     background-color: #588E47;
-    font-family:monospace;
+    font-family: monospace;
     border: 5px solid #06670e;
     width: auto;
 }
+
 button {
     background-color: black;
     color: #FDE666;
     font-family: monospace;
-    transition: background-color 0.3s ease; 
-    transition: color 0.3s ease, transform .3s ease; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
     width: 100px;
-    left: 100px;
-    top: 150px;
+    margin: 5px;
+    padding: 10px;
 }
+
 button:hover {
-  background-color: #FDE666; 
-  color: black;
-  transform: scale(1.15);
-}
-div {
-    opacity: 0;
-    user-select: none;
-}
-@keyframes reveal {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 100;
-    }
+    background-color: #FDE666; 
+    color: black;
+    transform: scale(1.15);
 }
